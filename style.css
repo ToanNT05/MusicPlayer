@@ -208,6 +208,7 @@ header h2 {
   justify-content: center;
   gap: 18px;
   padding: 22px 0 10px 0;
+  /* cursor: pointer; */
 }
 
 .control .btn {
@@ -221,6 +222,7 @@ header h2 {
   color: #fff;
   background: rgba(255, 255, 255, 0.08);
   transform: scale(1.06);
+  cursor: pointer;
 }
 
 .control .btn.active {
@@ -281,6 +283,7 @@ header h2 {
   border: 1px solid var(--border-color);
   transition: transform 0.15s ease, background-color 0.15s ease,
     box-shadow 0.15s ease;
+  cursor: pointer;
 }
 .song:hover {
   transform: translateY(-2px);
@@ -337,6 +340,7 @@ header h2 {
   padding: 16px 8px;
   color: var(--muted-text);
   font-size: 18px;
+  cursor: pointer;
 }
 
 /* Scrollbar for playlist */
